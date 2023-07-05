@@ -1,8 +1,16 @@
 ﻿using System;
 namespace CarLotSimulator
 {
+
     public class Car
     {
+
+        public Car()
+        {
+            CarLot.numberOfCars++;
+
+        }
+
         public string Make { get; set; }
 
         public string Model { get; set; }
@@ -88,7 +96,7 @@ namespace CarLotSimulator
 
 
 
-
+               
 
             }
         }
